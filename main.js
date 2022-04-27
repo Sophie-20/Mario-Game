@@ -1,10 +1,10 @@
 function preload() {
-	world_start = loadSound('world_start.wav');
-	mario_coins = loadSound ('coin.wav');
-	mario_kick= loadSound('kick.wav');
-	mario_jump= loadSound('jump.wav');
-	mario_die= loadSound('mariodie.wav');
-	mario_gameOver= loadSound('gameover.wav');
+	world_start = loadSound("world_start.wav");
+	mario_coins = loadSound ("coin.wav");
+	mario_kick= loadSound("kick.wav");
+	mario_jump= loadSound("jump.wav");
+	mario_die= loadSound("mariodie.wav");
+	mario_gameOver= loadSound("gameover.wav");
 	setSprites();
 	MarioAnimation();
 }
@@ -23,7 +23,7 @@ function setup() {
 }
 
 function draw() {
-	game()
+	game();
 }
 
 function modelLoaded(){
